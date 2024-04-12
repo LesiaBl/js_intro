@@ -2,7 +2,7 @@
 //letters, numbers, _, $;
 // declaration    let x
 // assignment     x = 100;
-
+// Backticks - ES6 ``
 /*
 let firstName = "Lesia";
 
@@ -232,3 +232,11 @@ Expected output: (it should exactly be same as below paragraph)
 
 
 */
+const firstName = "John";
+const lastName = "Doe";
+let age = 45;
+let emailAddress = "johndoe@gmail.com";
+let phoneNumber = "(123) 123 1234";
+let address = "123 St Chicago IL 12345";
+
+console.log(`User who joined this program is ${firstName} ${lastName}. ${firstName}'s age is ${age}. ${firstName}'s email address is ${emailAddress}, phone number is ${phoneNumber}, and the address is ${address}.`)
