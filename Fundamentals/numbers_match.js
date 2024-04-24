@@ -162,6 +162,6 @@ console.log(Math.floor(Math.random()*4)+5);
 console.log(Math.floor(Math.random()*10)+1);
 
 //number betwen 10 and 20
-//max - min +1
+//(max - min +1) + min
 
 console.log(Math.floor(Math.random()*11)+10);
